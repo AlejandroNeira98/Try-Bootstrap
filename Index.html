@@ -50,7 +50,7 @@
 
             <div class="col">
                 <h1 class="card-title">Tonic</h1>
-                <ul>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>Canopy</li>
                     <li><img src="#" alt=""></li>
                     <li>Backend Dev</li>
@@ -59,32 +59,32 @@
                 </ul>
                 <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
                 </p>
-                <ul>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <a href="#" type="button">See Project</a>
+                <a href="#" type="button" class="btn btn-primary">See Project</a>
             </div> 
         </div>
         <div class="container row"> 
             <div class="col">
-                <h1>Tonic</h1>
-                <ul>
+                <h1 class="card-title">Tonic</h1>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>Canopy</li>
                     <li><img src="#" alt=""></li>
                     <li>Backend Dev</li>
                     <li><img src="#" alt=""></li>
                     <li>2015</li>
                 </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
                 </p>
-                <ul>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <a href="#" type="button">See Project</a>
+                <a href="#" type="button" class="btn btn-primary">See Project</a>
             </div> 
             <div class="col"><img src="./images/c2d.png" alt=""></div>
         </div>
@@ -92,63 +92,63 @@
         <div class="container row">
             <img src="./images/c3d.png" alt="" class="col">
             <div class="col">
-                <h1>Tonic</h1>
-                <ul>
+                <h1 class="card-title">Tonic</h1>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>Canopy</li>
                     <li><img src="#" alt=""></li>
                     <li>Backend Dev</li>
                     <li><img src="#" alt=""></li>
                     <li>2015</li>
                 </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
                 </p>
-                <ul>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <a href="#" type="button">See Project</a>
+                <a href="#" type="button" class="btn btn-primary">See Project</a>
             </div> 
         </div>
         <div class="container row">
             <div class="col">
-                <h1>Tonic</h1>
-                <ul>
+                <h1 class="card-body">Tonic</h1>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>Canopy</li>
                     <li><img src="#" alt=""></li>
                     <li>Backend Dev</li>
                     <li><img src="#" alt=""></li>
                     <li>2015</li>
                 </ul>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                <p class="card-body">A daily selection of privately personalized reads; no accounts or sign-ups required.
                 </p>
-                <ul>
+                <ul class="d-flex gap-3 list-unstyled">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
-                <a href="#" type="button">See Project</a>
+                <a href="#" type="button" class="btn btn-primary">See Project</a>
             </div> 
             <img src="./images/c4d.png" alt="" class="col">
         </div>
     </section>
 
-    <section>
-        <div>
+    <section class="container row">
+        <div class="col">
             <h1>About Myself</h1>
             <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
             <p>Let's connect</p>
-            <ul>
-                <li><img src="#" alt="Logo of Twitter"></li>
-                <li><img src="#" alt="Logo of LinkedIn"></li>
-                <li><img src="#" alt="Logo of Medium"></li>
-                <li><img src="#" alt="Logo of GitHub"></li>
-                <li><img src="#" alt="Logo of Angel List"></li>
+            <ul class="d-flex gap-3 list-unstyled">
+                <li><img src="images/twiter.svg" alt="Logo of Twitter"></li>
+                <li><img src="images/Linkedin.svg" alt="Logo of LinkedIn"></li>
+                <li><img src="images/m.svg" alt="Logo of Medium"></li>
+                <li><img src="images/github.svg" alt="Logo of GitHub"></li>
+                <li><img src="images/manito.svg" alt="Logo of Angel List"></li>
             </ul>
-            <a href="#" type="button">Get My Resume</a>
+            <a href="#" type="button" class="btn btn-primary">Get My Resume</a>
         </div>
-        <div>
+        <div class="col">
             <ul>
                 <li>
                     <ul>
@@ -167,13 +167,14 @@
             </ul>
         </div>
     </section>
-    <footer>
-        <h1>Contact Me</h1>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+    <footer class="container mx-auto">
+        <h1 class="row">Contact Me</h1>
+        <p class="row">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
         </p>
         <form
           action="https://formspree.io/f/xyyokgln"
           method="post"
+            class="row col-6 container"
         >
           <input
             type="text"
@@ -181,20 +182,23 @@
             placeholder="Full name"
             maxlength="30"
             required
+            class="row"
           />
           <input
             type="email"
             name="email-address"
             placeholder="Email address"
             required
+            class="row"
           />
           <textarea
             name="comment"
             placeholder="Write your message here"
             maxlength="500"
             required
+            class="row"
           ></textarea>
-          <button type="submit">Get it Touch</button>
+          <button type="submit" class="btn btn-primary row">Get it Touch</button>
         </form>
         <div>
 
