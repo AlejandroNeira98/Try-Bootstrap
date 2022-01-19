@@ -1,0 +1,7 @@
+main {
+    width: 99vmax;
+    background-image: url("images/Header-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
